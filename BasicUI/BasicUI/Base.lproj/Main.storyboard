@@ -105,9 +105,17 @@
                             <constraint firstItem="yAG-LA-H5f" firstAttribute="trailing" secondItem="0vj-ge-hk9" secondAttribute="trailing" id="uYM-kG-l7j"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="first" destination="iXt-d9-hg6" id="rXJ-SA-2kj"/>
+                        <outletCollection property="button" destination="iXt-d9-hg6" id="j7g-g8-UZq"/>
+                        <outletCollection property="button" destination="fP2-YD-K2n" id="wOw-Fa-axo"/>
+                        <outletCollection property="button" destination="Voz-ZU-ux9" id="UqX-mv-YFW"/>
+                        <outletCollection property="button" destination="Voz-ZU-ux9" id="y8N-7x-pnN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="623" y="115"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="d2C-RY-JDe">
@@ -160,7 +168,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Qk-b2-tzP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1014.375" y="180"/>
+            <point key="canvasLocation" x="1414" y="139"/>
         </scene>
     </scenes>
 </document>

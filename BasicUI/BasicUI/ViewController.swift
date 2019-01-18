@@ -10,16 +10,28 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var first: UIButton!
+    
+    @IBOutlet var button: [UIButton]!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        //first.layer.cornerRadius = 50
+        
+        
+        for btn in button {
+            btn.layer.cornerRadius = 10
+        }
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+   
+    
+    override func viewWillAppear(_ animated: Bool) {
+         
     }
-
 
 }
 
