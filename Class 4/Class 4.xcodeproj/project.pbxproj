@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		AAE2373421F2D5BE00EC49ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE2373321F2D5BE00EC49ED /* AppDelegate.swift */; };
-		AAE2373621F2D5BE00EC49ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE2373521F2D5BE00EC49ED /* ViewController.swift */; };
 		AAE2373921F2D5BE00EC49ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE2373721F2D5BE00EC49ED /* Main.storyboard */; };
 		AAE2373B21F2D5BE00EC49ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE2373A21F2D5BE00EC49ED /* Assets.xcassets */; };
 		AAE2373E21F2D5BE00EC49ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE2373C21F2D5BE00EC49ED /* LaunchScreen.storyboard */; };
+		AAE2374621F2D80D00EC49ED /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE2374521F2D80D00EC49ED /* FirstScreen.swift */; };
+		AAE2374821F2D8A300EC49ED /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE2374721F2D8A300EC49ED /* SecondScreen.swift */; };
+		AAE2374A21F2DBEE00EC49ED /* ThirdScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE2374921F2DBEE00EC49ED /* ThirdScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AAE2373021F2D5BE00EC49ED /* Class 4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Class 4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE2373321F2D5BE00EC49ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AAE2373521F2D5BE00EC49ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AAE2373821F2D5BE00EC49ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AAE2373A21F2D5BE00EC49ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAE2373D21F2D5BE00EC49ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAE2373F21F2D5BE00EC49ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAE2374521F2D80D00EC49ED /* FirstScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
+		AAE2374721F2D8A300EC49ED /* SecondScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
+		AAE2374921F2DBEE00EC49ED /* ThirdScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				AAE2373321F2D5BE00EC49ED /* AppDelegate.swift */,
-				AAE2373521F2D5BE00EC49ED /* ViewController.swift */,
+				AAE2374521F2D80D00EC49ED /* FirstScreen.swift */,
+				AAE2374721F2D8A300EC49ED /* SecondScreen.swift */,
 				AAE2373721F2D5BE00EC49ED /* Main.storyboard */,
+				AAE2374921F2DBEE00EC49ED /* ThirdScreen.swift */,
 				AAE2373A21F2D5BE00EC49ED /* Assets.xcassets */,
 				AAE2373C21F2D5BE00EC49ED /* LaunchScreen.storyboard */,
 				AAE2373F21F2D5BE00EC49ED /* Info.plist */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAE2373621F2D5BE00EC49ED /* ViewController.swift in Sources */,
+				AAE2374621F2D80D00EC49ED /* FirstScreen.swift in Sources */,
 				AAE2373421F2D5BE00EC49ED /* AppDelegate.swift in Sources */,
+				AAE2374821F2D8A300EC49ED /* SecondScreen.swift in Sources */,
+				AAE2374A21F2DBEE00EC49ED /* ThirdScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
