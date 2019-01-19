@@ -13,14 +13,24 @@ class ViewController: UIViewController {
     @IBOutlet weak var TF1: UITextField!
     @IBOutlet weak var TF2: UITextField!
     
+    @IBOutlet weak var first: UILabel!
     
     
     var T1Value = String()
     var T2value = String()
     
+    
+    var datapass = "sdff"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+       
+        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        
+        first.text = datapass
     }
 
     override func didReceiveMemoryWarning() {

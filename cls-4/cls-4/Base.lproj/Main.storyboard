@@ -44,6 +44,13 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="frv-Yg-fYr">
+                                <rect key="frame" x="123" y="311" width="125" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.52529796259999995" green="1" blue="0.42888607499999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -51,6 +58,7 @@
                     <connections>
                         <outlet property="TF1" destination="OAh-J5-Hlx" id="7KK-G1-iFF"/>
                         <outlet property="TF2" destination="6Fy-Us-vwk" id="LE1-VY-XZL"/>
+                        <outlet property="first" destination="frv-Yg-fYr" id="2vz-2y-x3g"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
