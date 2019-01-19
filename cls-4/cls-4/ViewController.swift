@@ -40,7 +40,21 @@ class ViewController: UIViewController {
 
     @IBAction func login(_ sender: Any) {
         T1Value = TF1.text!
-        T2value = TF2.text!
+        T2value = TF1.text!
+        if TF1.text == "" && TF2.text == ""
+        {
+            
+            //then do something
+            let alert = UIAlertController(title: "Did you bring your towel?", message: "It's recommended you bring your towel before continuing.", preferredStyle: .alert)
+            
+            alert.addAction(UIAlertAction(title: "Yes", style: .default, handler: nil))
+            alert.addAction(UIAlertAction(title: "No", style: .cancel, handler: nil))
+            
+            self.present(alert, animated: true)
+            
+        }
+        
+        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
