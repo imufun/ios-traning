@@ -41,7 +41,7 @@ class ViewController: UIViewController {
     @IBAction func login(_ sender: Any) {
         T1Value = TF1.text!
         T2value = TF1.text!
-        if TF1.text == "" && TF2.text == ""
+        if TF1.text == "" ||  TF2.text == ""
         {
             
             //then do something
