@@ -12,6 +12,8 @@
 		AADE082121FAC04D00C951A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AADE081F21FAC04D00C951A9 /* Main.storyboard */; };
 		AADE082321FAC04D00C951A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AADE082221FAC04D00C951A9 /* Assets.xcassets */; };
 		AADE082621FAC04D00C951A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AADE082421FAC04D00C951A9 /* LaunchScreen.storyboard */; };
+		AADE082E21FAC91000C951A9 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADE082D21FAC91000C951A9 /* TableViewCell.swift */; };
+		AADE083021FAD6D600C951A9 /* Cars.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADE082F21FAD6D600C951A9 /* Cars.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		AADE082221FAC04D00C951A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AADE082521FAC04D00C951A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AADE082721FAC04D00C951A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AADE082D21FAC91000C951A9 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		AADE082F21FAD6D600C951A9 /* Cars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cars.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				AADE081B21FAC04D00C951A9 /* AppDelegate.swift */,
+				AADE082D21FAC91000C951A9 /* TableViewCell.swift */,
 				AADE081D21FAC04D00C951A9 /* ViewController.swift */,
 				AADE081F21FAC04D00C951A9 /* Main.storyboard */,
 				AADE082221FAC04D00C951A9 /* Assets.xcassets */,
 				AADE082421FAC04D00C951A9 /* LaunchScreen.storyboard */,
 				AADE082721FAC04D00C951A9 /* Info.plist */,
+				AADE082F21FAD6D600C951A9 /* Cars.swift */,
 			);
 			path = "Class 5 TableView";
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AADE082E21FAC91000C951A9 /* TableViewCell.swift in Sources */,
 				AADE081E21FAC04D00C951A9 /* ViewController.swift in Sources */,
+				AADE083021FAD6D600C951A9 /* Cars.swift in Sources */,
 				AADE081C21FAC04D00C951A9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
