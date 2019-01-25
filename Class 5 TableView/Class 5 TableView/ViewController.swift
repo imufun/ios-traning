@@ -38,8 +38,8 @@ class ViewController: UIViewController {
         var tempArray : [Cars] = []
         
         let v1 = Cars(image: #imageLiteral(resourceName: "img-1"), title: "This is Test Data1")
-        let v2 = Cars(image: #imageLiteral(resourceName: "img-2"), title: "This is Test Data1")
-        let v3 = Cars(image: #imageLiteral(resourceName: "img-3"), title: "This is Test Data1")
+        let v2 = Cars(image: #imageLiteral(resourceName: "img-2"), title: "This is Test Data1 2")
+        let v3 = Cars(image: #imageLiteral(resourceName: "img-3"), title: "This is Test Data1 33 ")
         let v4 = Cars(image: #imageLiteral(resourceName: "img-5"), title: "This is Test Data1")
         let v5 = Cars(image: #imageLiteral(resourceName: "img-9"), title: "This is Test Data1")
         
