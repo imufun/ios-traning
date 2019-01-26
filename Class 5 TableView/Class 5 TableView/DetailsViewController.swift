@@ -35,7 +35,8 @@ class DetailsViewController: UIViewController {
         
         btnView.layer.cornerRadius = btnView.frame.size.height/2
         btnView.setTitleColor(UIColor.white, for: .normal)
-        btnView.setGradient(color1: Color.blue, color2: Color.green)
+        btnView.setGradient(color1: Color.blue, color2: Color.green, color3: Color.red)
+        btnView.layer.masksToBounds = true
         
         // uicolor.xyz
         
