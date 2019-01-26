@@ -12,9 +12,15 @@ class Cars {
     
     var imageLabel : UIImage
     var titleLabel : String
+    var url : String
+    var description : String
     
-    init(image: UIImage, title: String) {
+     
+    
+    init(image: UIImage, title: String, url: String, description: String) {
         self.imageLabel = image
         self.titleLabel = title
+        self.url = url
+        self.description = description
     }
 }
