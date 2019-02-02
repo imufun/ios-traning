@@ -12,6 +12,9 @@
 		AA2887432205669A0037E1EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2887412205669A0037E1EF /* Main.storyboard */; };
 		AA2887452205669A0037E1EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA2887442205669A0037E1EF /* Assets.xcassets */; };
 		AA2887482205669A0037E1EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2887462205669A0037E1EF /* LaunchScreen.storyboard */; };
+		AA288750220567630037E1EF /* Friuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA28874F220567630037E1EF /* Friuts.swift */; };
+		AA28875322056E380037E1EF /* FriutsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA28875222056E380037E1EF /* FriutsCollectionViewCell.swift */; };
+		AA288755220584C00037E1EF /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA288754220584C00037E1EF /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		AA2887442205669A0037E1EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA2887472205669A0037E1EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA2887492205669A0037E1EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA28874F220567630037E1EF /* Friuts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friuts.swift; sourceTree = "<group>"; };
+		AA28875222056E380037E1EF /* FriutsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriutsCollectionViewCell.swift; sourceTree = "<group>"; };
+		AA288754220584C00037E1EF /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,25 @@
 		AA28873C2205669A0037E1EF /* Class-7 Collection */ = {
 			isa = PBXGroup;
 			children = (
+				AA2887512205684B0037E1EF /* Model */,
 				AA28873D2205669A0037E1EF /* AppDelegate.swift */,
 				AA28873F2205669A0037E1EF /* ViewController.swift */,
 				AA2887412205669A0037E1EF /* Main.storyboard */,
 				AA2887442205669A0037E1EF /* Assets.xcassets */,
 				AA2887462205669A0037E1EF /* LaunchScreen.storyboard */,
 				AA2887492205669A0037E1EF /* Info.plist */,
+				AA28875222056E380037E1EF /* FriutsCollectionViewCell.swift */,
+				AA288754220584C00037E1EF /* DetailsViewController.swift */,
 			);
 			path = "Class-7 Collection";
+			sourceTree = "<group>";
+		};
+		AA2887512205684B0037E1EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA28874F220567630037E1EF /* Friuts.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +153,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA288750220567630037E1EF /* Friuts.swift in Sources */,
+				AA28875322056E380037E1EF /* FriutsCollectionViewCell.swift in Sources */,
 				AA2887402205669A0037E1EF /* ViewController.swift in Sources */,
 				AA28873E2205669A0037E1EF /* AppDelegate.swift in Sources */,
+				AA288755220584C00037E1EF /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
